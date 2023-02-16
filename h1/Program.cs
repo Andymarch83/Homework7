@@ -19,7 +19,7 @@ double[,] InitMatrix()
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = rnd.Next(-100, 101)*0.1;
+            matrix[i, j] = rnd.Next(-100, 101) * 0.1;
         }
     }
 
